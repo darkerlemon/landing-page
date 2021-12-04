@@ -44,7 +44,80 @@
     margin-right: 215px;
     margin-top: 20px;
     text-align: center;
+    border-radius: 10px; 
+}
+.middle {
+    color: #1f2937;
+    padding: 50px ;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+}
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 230px;
+    margin-right: 230px;  
+}
+.item {
+    width: 160px;
+    height: 162px;
+    border: 4px solid #3882f6;
+    border-radius: 15px;
+  }
+.subtext {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 222px;
+    margin-right: 230px; 
+    padding-top: 10px;
+}
+.text {
+    height: 160px;
+    width: 150px;
+    text-align: center;
+}
+.qcon {
+    display: flex;
+    padding: 125px 290px;  
+    flex-wrap: wrap;
+    background-color: #e5e7eb;
+}
+.thor {
+margin-left: auto;
+margin-top: 10px;
+margin-right: 20px;
+font-weight: bolder;
+font-size: 25px;
+}
+.quote {
+font-size: 36px;
+font-style: oblique;
+color: #1f2937;
+}
+.sign {
+display: flex;
+background-color: #3882f6;
+flex-wrap: wrap;
+padding: 40px 100px;
+margin: 100px 200px;
+border-radius: 8px;
+color: #e5e7eb;
+}
+.call {
+    font-size: 24px;
+    font-weight: bolder;
+}
+.su {
+    border: 2px solid white;
+    width: 120px;
+    height: 30px;
     border-radius: 10px;
-    
-    
+    text-align: center;
+    padding-top: 15px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.product {
+    margin-right: 200px;
 }
