@@ -3,46 +3,48 @@
 }
 
 
-.top, .main {
+.containerone {
     display: flex;
     background-color: #1f2937;
+    flex-wrap: wrap;
+    padding: 20px 200px;
+    
 }
-.logo  {
+.right {
+    margin-left: auto;
+    margin-bottom: 100px;
+}
+.logo {
     font-size: 24px;
     color: #f9faf8;
-    padding: 10px;
-    margin-left: 120px;
-    margin-right: 400px;
     font-weight: bold;
+    margin-right: 400px;
+    margin-bottom: 100px;
+
 }
 .header {
-    font-size: 18px;
     color: #e5e7eb;
-    margin-left: 100px;
-    padding-top: 10px;
-    margin-right: 100px;
-}
-.one, .two {
-    margin-right: -40px;
-}
-.main {
-    padding-left: 200px;
-    padding-right: 300px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    font-size: 18px;
+    font-weight: 400;
 }
 .big {
     font-size: 48px;
-font-weight: bolder;
-color: #f9faf8;
+    font-weight: bolder;
+    width: 350px;
+    height: 300px;
 }
-.small, .button {
-font-size: 18px;
-color: #E5E7EB;
-padding: 1px;
+.small {
+    width: 460px;
 }
-.small
-{
-    font-weight: 400;
-    padding-right: 250px;
+.button {
+    padding: 7px;
+    background-color: #3882f6;
+    font-weight: 800;
+    justify-content: left;
+    margin-right: 215px;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    
+    
 }
