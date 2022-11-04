@@ -5,13 +5,10 @@ body {
     padding: 0;
     margin: 0;
     flex-direction: column;
-    align-items: center;
-    max-width: 1800px;
 }
 
 .header {
     display: flex;
-    flex-grow: 1;
     background-color: #1F2937;
 }
 .logo {
@@ -25,13 +22,14 @@ body {
     display: flex;
     justify-content: flex-end;
     gap: 32px;
-    padding: 16px 128px;
+    padding: 16px 192px;
     font-size: 18px;
     color: #e5e7eb;
 }
 .hero {
     display: flex;
-    padding: 32px 128px;
+    justify-content: center;
+    padding: 32px;
     margin-top: -72px;
     background-color: #1F2937;
     align-items: center;
@@ -45,8 +43,8 @@ padding-right: 48px;
 
 } 
 img {
-    max-width: 400px;
-    max-height: 250px;
+    max-width: 550px;
+    max-height: 300px;
 }
 .hero-h {
     color: #f9faf8;
